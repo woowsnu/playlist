@@ -50,31 +50,36 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 
 🖖 플레이리스트 이름 수정
 
-🖐️ 플레이리스트에 음원 추가
 
 ##   구현 예제
 
+- addAlbum : 앨범정보 등록   
 ![image](https://user-images.githubusercontent.com/105709187/171051563-f940ac65-a4c3-4338-bfa0-c80017b39a5e.png)
 
+- addSong : 곡 정보 등록
 ![image](https://user-images.githubusercontent.com/105709187/171051826-5604f7a3-7544-405d-824c-508ce283871b.png)
-  
+
+- addPlaylist : 플레이리스트 생성  
 ![image](https://user-images.githubusercontent.com/105709187/171051903-3541fc28-6f91-410f-b2aa-37b5cc25f6a6.png)
 
+- ReadSong : 전체 곡 조회
 ![image](https://user-images.githubusercontent.com/105709187/171051991-266a786d-59e5-4579-893e-54ca902d230d.png)
 
+- updatePlaylist : 플레이리스트 이름 수정 
 ![image](https://user-images.githubusercontent.com/105709187/171052076-b997da8e-0edd-4b49-b1b2-79d99932a4b4.png)
 
+- deletePlaylist : 플레이리스트 삭제
 ![image](https://user-images.githubusercontent.com/105709187/171052152-4b56cda0-dfa1-4a12-a3c4-171eb7407b79.png)
 
 
 ## Trouble Shooting
-- 처음 구현하려고 했던 기능은 음원 사이트에서 사용하는 플레이리스트처럼 플레이리스트를 생성하고 플레이리스트 안에 음원을 넣고, 장르별로 구분하여 조회 및 CRUD 구현을 하고자 했으나 아래 기능들은 에러 발생으로 구현하지 못하였음
+- 처음 구현하려고 했던 기능은 음원 사이트에서 사용하는 플레이리스트처럼 플레이리스트를 생성하고 플레이리스트 안에 음원을 넣고, 장르별로 구분하여 조회 및 CRUD 구현을 하고자 하였음. 아래 기능들은 에러 발생으로 구현하지 못하였음.
 
 ### Model(PlaylistSong)
 
-  ![image](https://user-images.githubusercontent.com/105709187/171052378-4a507bf4-f7b2-4cdf-9680-8af31d1927e5.png)
+![image](https://user-images.githubusercontent.com/105709187/171052378-4a507bf4-f7b2-4cdf-9680-8af31d1927e5.png)
 
-  - 다량의 조인, 매핑에 대한 에러가 발생해 엔티티 테이블 자체가 생성되지 않는 오류가 지속적으로 발생하여 프로젝트 마무리를 위해 구현했던 연관관계, 조인 설정을 모두 삭제하고 진행함.
+- 다량의 조인, 매핑에 대한 에러가 발생해 엔티티 테이블 자체가 생성되지 않는 오류가 지속적으로 발생하여 프로젝트 마무리를 위해 구현했던 연관관계, 조인 설정을 모두 삭제하고 진행함.
   
 ### Path(/song)
 - jqpl 문법 사용해 등록된 전체 곡을 조회하고 싶었으나 하나의 곡만 조회되는 현상 발생
@@ -88,7 +93,7 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 
 ### 문선화  
 ---  
-  
+총 2번의 프로젝트를 진행했지만 여전히 갈 길이 먼 느낌이다. 담당했던 부분을 다 구현하지 못해 아쉬움이 크다. 고생한 팀원분들께 많이 감사하다!  
 
 ### 김현진 
 배운 내용을 실제로 적용하는 과정은 언제나 어려운 것 같다. 
