@@ -69,7 +69,7 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 
 ## Trouble Shooting
 - 처음 구현하려고 했던 기능은 음원 사이트에서 사용하는 플레이리스트처럼 플레이리스트를 생성하고 플레이리스트 안에 음원을 넣고, 장르별로 구분하여 조회 및 CRUD 구현을 하고자 했으나 아래 기능들은 에러 발생으로 구현하지 못하였음
--   
+
 ### Model(PlaylistSong)
 
   ![image](https://user-images.githubusercontent.com/105709187/171052378-4a507bf4-f7b2-4cdf-9680-8af31d1927e5.png)
