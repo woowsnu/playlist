@@ -22,22 +22,22 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 * LocalDate releaseDate : 앨범발매일
 
 **[PlayList Entity]**
-* int playListId ; 플레이리스트 고유 아이디(**PK**)
-* String playlistName ; 플레이리스트명
+* int playListId : 플레이리스트 고유 아이디(**PK**)
+* String playlistName : 플레이리스트명
 
 **[PlayList Entity]**
 
-* int playListSongId ; 플레이리스트음원 아이디(**PK**)
-* List<Album> album ; 앨범 아이디
-* List<Song> song ; 음원 아이디
-* Playlist pl ; 플레이리스트 아이디
+* int playListSongId : 플레이리스트음원 아이디(**PK**)
+* List<Album> album : 앨범 아이디
+* List<Song> song : 음원 아이디
+* Playlist pl : 플레이리스트 아이디
 
 **[Song Entity]**
-* int songId ; 음원 고유 아이디(**PK**)
-* String title ; 음원 제목
-* String artist ; 음원 가수
-* String length ; 음원 음원길이	
-* Album album ;  앨범 앨범(**FK**)
+* int songId : 음원 고유 아이디(**PK**)
+* String title : 음원 제목
+* String artist : 음원 가수
+* String length : 음원 음원길이	
+* Album album : 앨범 앨범(**FK**)
 
 
 ## Requirements 🤔
@@ -54,6 +54,7 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 
 ##   구현 예제
 
+![image](https://user-images.githubusercontent.com/105709187/171051563-f940ac65-a4c3-4338-bfa0-c80017b39a5e.png)
 
 
 ## Trouble Shooting
