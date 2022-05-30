@@ -5,10 +5,10 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 
 ## Team members 👩‍👩‍👦‍👦
 
--   배서현 (GitHub Url :  [https://github.com/Do-it-chu](https://github.com/95Glory))  
--   문선화 (GitHub Url :  https://github.com/woowsnu)  
--   김현진 (GitHub Url :  [https://github.com/Hyeonjin-ee](https://github.com/95Glory))  
--   김영광 (GitHub Url :  [https://github.com/95Glory](https://github.com/yunjo1))  
+-   배서현 (GitHub Url :  [https://github.com/Do-it-chu](https://github.com/Do-it-chu))  
+-   문선화 (GitHub Url :  [https://github.com/woowsnu] (https://github.com/woowsnu))  
+-   김현진 (GitHub Url :  [https://github.com/Hyeonjin-ee] (https://github.com/Hyeonjin-ee))  
+-   김영광 (GitHub Url :  [https://github.com/95Glory](https://github.com/95Glory))  
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">   
@@ -42,11 +42,13 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 
 ## Requirements 🤔
 
-☝️ 앨범, 음원 데이터 등록  
+☝️ 앨범, 곡 데이터 등록  
 
-✌️ 앨범 아이디로 음원 조회
+✌️ 앨범 아이디로 해당 앨범의 수록곡 조회
 
-👌  플레이리스트 생성
+👌 전체 곡 조회
+
+👌 플레이리스트 생성
 
 🖖 플레이리스트 이름 수정
 
