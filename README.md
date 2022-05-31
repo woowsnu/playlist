@@ -22,7 +22,7 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 * String artist : 앨범 아티스트  
 * String albumGenre : 앨범 장르
 * LocalDate releaseDate : 앨범발매일
-* 
+
 **[Song Entity : 음원 정보 테이블]**
 * int songId : 음원 고유 아이디(**PK**)
 * String title : 음원 제목
