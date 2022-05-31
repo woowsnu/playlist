@@ -2,7 +2,7 @@
 
 ## Play List ▶️
 JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하는  API 구현
-[API문서] (https://documenter.getpostman.com/view/20722114/Uz5DocYH)
+[API문서](https://documenter.getpostman.com/view/20722114/Uz5DocYH)
 
 ## Team members 👩‍👩‍👦‍👦
 
