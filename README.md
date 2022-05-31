@@ -16,35 +16,37 @@ JPA를 이용해 음원 DB 테이블 구성, 데이터 저장, 수정, 삭제하
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">   
 
 ## Domain🛠️
-**[Album Entity]**
+**[Album Entity : 앨범 정보 테이블]**
 * int album_id : 앨범 아이디(**PK**)
 * String albumTitle : 앨범 제목
 * String artist : 앨범 아티스트  
 * String albumGenre : 앨범 장르
 * LocalDate releaseDate : 앨범발매일
-
-**[PlayList Entity]**
-* int playListId : 플레이리스트 고유 아이디(**PK**)
-* String playlistName : 플레이리스트명
-
-**[PlayList Entity]**
-
-* int playListSongId : 플레이리스트음원 아이디(**PK**)
-* List<Album> album : 앨범 아이디
-* List<Song> song : 음원 아이디
-* Playlist pl : 플레이리스트 아이디
-
-**[Song Entity]**
+* 
+**[Song Entity : 음원 정보 테이블]**
 * int songId : 음원 고유 아이디(**PK**)
 * String title : 음원 제목
 * String artist : 음원 가수
 * String length : 음원 음원길이	
 * Album album : 앨범 앨범(**FK**)
 
+**[PlayList Entity : 플레이리스트 테이블]**
+* int playListId : 플레이리스트 고유 아이디(**PK**)
+* String playlistName : 플레이리스트명
+
+**[PlayListSong Entity : 플레이리스트에 담긴 음원 정보 테이블]**
+
+* int playListSongId : 플레이리스트음원 아이디(**PK**)
+* List<Album> album : 앨범 아이디
+* List<Song> song : 음원 아이디
+* Playlist pl : 플레이리스트 아이디
+
+
+
 
 ## Requirements 🤔
 
-☝️ 앨범, 곡 데이터 등록  
+☝️ 앨범, 음원 데이터 등록  
 
 ✌️ 앨범 아이디로 해당 앨범의 수록곡 조회
 
